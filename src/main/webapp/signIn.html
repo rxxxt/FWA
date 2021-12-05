@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Authentication</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
-    <a href="index.html">Home</a>
+<div class="home">
+    <div class="homeWrapper">
+        <a href="index.html">
+            <img src='https://openclipart.org/image/800px/231197' height="70px" width="70px">
+        </a>
+    </div>
 </div>
-<div style="
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%)">
+<div class="signInPage">
     <h1>Authentication</h1>
-    <p>
-        <a href="signUp.html">Registration</a>
-    </p>
-    <div id="wrapper">
+    <div class="authWrapper" id="wrapper">
         <form id="signin" method="post" action="" autocomplete="off">
             <input type="email" id="email" name="email" placeholder="email" /><br>
             <input type="password" id="pass" name="pass" placeholder="password" /><br>
             <button type="submit">OK</button><br>
         </form>
     </div>
+    <p>
+        <a class="registrationLink" href="signUp.html">Registration</a>
+    </p>
 </div>
 </body>
 </html>
