@@ -9,7 +9,7 @@ import java.io.IOException;
 public class SignInServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/html/signIn.html").forward(request, response);
+        request.getRequestDispatcher("/signIn.html").forward(request, response);
     }
 
     @Override
