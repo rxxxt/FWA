@@ -1,0 +1,139 @@
+body {
+	background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1614399717_22-p-temnii-fon-dlya-shapki-yutub-23.png');
+}
+
+h1 {
+	margin: auto;
+	text-transform: uppercase;
+	color: antiquewhite;
+}
+
+a {
+	color: #000;
+}
+
+p {
+	color: antiquewhite;
+}
+
+input {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+	width: 100%;
+	margin: 3px 0;
+	padding: 5px;
+	border: 2px solid antiquewhite;
+	border-radius: 10px;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+button {
+	margin: 7px 0;
+	padding: 5px;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: #000;
+	background-color: #2EE59D;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	}
+  
+  button:hover {
+	background-color: #2EE59D;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateY(-2px);
+  }
+
+.startPage {
+	height: 150px;
+	width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+.signInPage {
+	height: 15%;
+	width: 225px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+.signInWrapper {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	background-color: antiquewhite;
+	border-radius: 15px;
+}
+
+.signUpWrapper {
+	margin-top: 10%;
+	width: 100%;
+	height: 50%;
+	display: flex;
+	background-color: antiquewhite;
+	border-radius: 15px;
+}
+
+.signInLink {
+	margin: auto;
+}
+
+.signUpLink {
+	margin: auto;
+}
+
+.home {
+	width: 70px;
+	height: 70px;
+	display: flex;
+	background-size: contain;
+	border-radius: 15px;
+}
+
+.homeWrapper {
+	margin: auto;
+}
+
+.registrationWrapper {
+	margin-top: 10%;
+	padding: 15%;
+	width: 92%;
+	height: 120%;
+	display: flex;
+	background-color: antiquewhite;
+	border-radius: 15px;
+	align-items: center;
+	align-content: center;
+}
+
+.authWrapper {
+	margin-top: 10%;
+	padding: 15%;
+	width: 100%;
+	height: 50%;
+	display: flex;
+	background-color: antiquewhite;
+	border-radius: 15px;
+	align-items: center;
+	align-content: center;
+}
+
+.registrationLink {
+	color: antiquewhite;
+	padding-left: 50%;
+}
+
+.authLink{
+	color: antiquewhite;
+	padding-left: 40%;
+}
